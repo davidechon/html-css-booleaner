@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
 header {
     height: 100px;
     margin: 0 auto;
@@ -11,17 +15,54 @@ header {
 }
 #logo {
     width: 15%;
-    position: absolute;
+    position: relative;
     left: 10px;
     top: 50px;
 }
+figure {
+    width: 100%;
+    margin: 10px auto;
+}
 
 article{
-    width: 90%;
     margin: 5px auto;
     border: 1px solid red;
+}
+h1 {
+    font-size: 40px;
+}
+.subtitle {
+    color: grey;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #69c3ed;
+}
+.date {
+    color: grey;
+    font-size: 12px;
+}
+figcaption {
+    font-size: 12px;
 }
 
 .highlighted{
     background-color: yellow;
+}
+
+.list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    margin: 20px 0;
+    column-gap: 0;
+}
+th {
+    background-color: #21a9e5;
+    color: white;
+}
+tr {
+    background-color: #b1e5f2;
 }
