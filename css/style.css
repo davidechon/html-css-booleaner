@@ -22,33 +22,45 @@ header {
     top: 35px;
 }
 
-figure {
-    width: 100%;
-    margin: 10px auto;
+h1 {
+    font-size: 45px;
 }
+h2 {
+    color: grey;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #69c3ed;
+}
+a:hover {
+    color: grey;
+}
+
+h3 {
+    color: grey;
+    font-size: 12px;
+}
+
+figure {
+    margin: 20px 8px;
+}
+figcaption {
+    font-size: 12px;
+}
+
+
+/* Check */
 
 article{
     margin: 5px auto;
     border: 1px solid red;
 }
-h1 {
-    font-size: 40px;
-}
-.subtitle {
-    color: grey;
-    font-size: 16px;
-}
-a{
-    text-decoration: none;
-    color: #69c3ed;
-}
-.date {
-    color: grey;
-    font-size: 12px;
-}
-figcaption {
-    font-size: 12px;
-}
+
+
+
+
+
 
 p{
     margin: 10px 0;
